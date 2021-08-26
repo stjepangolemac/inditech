@@ -1,6 +1,7 @@
 [package]
 name = "inditech"
 version = "0.1.0"
+description = "A set of technical indicators for time series analysis"
 homepage = "https://github.com/stjepangolemac/inditech"
 repository = "https://github.com/stjepangolemac/inditech"
 documentation = "https://docs.rs/inditech"
