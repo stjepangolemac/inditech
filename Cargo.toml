@@ -1,0 +1,27 @@
+[package]
+name = "inditech"
+version = "0.1.0"
+homepage = "https://github.com/stjepangolemac/inditech"
+repository = "https://github.com/stjepangolemac/inditech"
+documentation = "https://docs.rs/inditech"
+readme = "README.md"
+license-file = "LICENSE"
+keywords = ["technical", "indicators", "time", "series"]
+categories = ["data-structures"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-traits = "0.2.14"
+ringvec = "0.1.0"
+
+[dev-dependencies]
+csv = "1.1.6"
+criterion = "0.3.5"
+rand = "0.8.4"
+sliding_features = { git = "https://github.com/MathisWellmann/sliding_features-rs.git" }
+
+[[bench]]
+name = "bench"
+harness = false
